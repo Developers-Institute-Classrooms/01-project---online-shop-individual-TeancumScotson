@@ -1,6 +1,7 @@
 import { React, useEffect, useState } from "react";
 import "./App.css";
 
+
 // The function that makes the fetch request to the Products API
 import { getProducts } from "./services/getProducts";
 
@@ -19,9 +20,7 @@ function App() {
   }, []);
 
   return (
-    <div className="container">
-      <h1>Sunglass Shop</h1>
-    </div>
+    <img src="/logo.jpeg" alt="logo" />
   );
 }
 
