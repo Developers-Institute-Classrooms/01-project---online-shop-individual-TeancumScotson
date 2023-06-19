@@ -21,6 +21,7 @@ function App() {
 
   return (
     <img src="/logo.jpeg" alt="logo" />
+    
   );
 }
 
