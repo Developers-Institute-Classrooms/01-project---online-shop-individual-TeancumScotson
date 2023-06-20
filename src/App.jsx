@@ -1,6 +1,8 @@
 import { React, useEffect, useState } from "react";
 import "./App.css";
 
+import Products from "./components/Products";
+
 
 // The function that makes the fetch request to the Products API
 import { getProducts } from "./services/getProducts";
@@ -13,6 +15,7 @@ function App() {
   useEffect(() => {
     const loadData = async () => {
       const products = await getProducts();
+      console.log(products)
       setProducts(products);
     };
 
@@ -20,8 +23,10 @@ function App() {
   }, []);
 
   return (
+    <div className="container">
     <img src="/logo.jpeg" alt="logo" />
-    
+    <Products products={products} />
+    </div>
   );
 }
 
