@@ -24,8 +24,11 @@ function App() {
 
   return (
     <div className="container">
-    <img src="/logo.jpeg" alt="logo" />
-    <Products products={products} />
+    <header className="header">
+    <h1 className="title">Olympus Supplements</h1>
+    <img className="logo" src="/logo.jpeg" alt="logo" />
+    </header>
+    <Products products={products}/>
     </div>
   );
 }
