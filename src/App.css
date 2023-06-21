@@ -59,11 +59,11 @@
   font-size: 1.5rem;
   background-color: rgb(225, 194, 93);
   color: rgb(255, 255, 255);
-  border-radius: 10%;
   border: 0rem;
   padding: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  border-radius: 3%;
 }
 .buybutton:hover {
   text-shadow: red -5px 0, cyan 5px 0;
