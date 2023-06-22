@@ -3,7 +3,6 @@ import "./App.css";
 
 import Products from "./components/Products";
 
-
 // The function that makes the fetch request to the Products API
 import { getProducts } from "./services/getProducts";
 
@@ -15,7 +14,7 @@ function App() {
   useEffect(() => {
     const loadData = async () => {
       const products = await getProducts();
-      console.log(products)
+      console.log(products);
       setProducts(products);
     };
 
@@ -24,11 +23,11 @@ function App() {
 
   return (
     <div className="container">
-    <header className="header">
-    <h1 className="title">Olympus Supplements</h1>
-    <img className="logo" src="/logo.jpeg" alt="logo" />
-    </header>
-    <Products products={products}/>
+      <header className="header">
+        <h1 className="title">Olympus Supplements</h1>
+        <img className="logo" src="/logo.jpeg" alt="logo" />
+      </header>
+      <Products products={products} />
     </div>
   );
 }
