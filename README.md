@@ -1,7 +1,12 @@
 # 01 Project - Online Shop
 
-An online shop that sells supplements
+An online shop that sells the highest quality supplements with the cheapest prices  
 ![Screenshot of online shop](Screenshot.png)
+
+## Features 
+- Responsive supports all devices and screen sizes 
+- interactive 
+- built in react and uses stripe for products 
 
 ## Dependencies
 

@@ -27,6 +27,10 @@
   width: 100%;
   height: auto;
 }
+.name{
+font-size: 1rem;
+font-weight: 800;
+}
 .header {
   display: grid;
   justify-items: center;
@@ -58,7 +62,7 @@
 .buybutton {
   font-size: 1.5rem;
   background-color: rgb(225, 194, 93);
-  color: rgb(255, 255, 255);
+  color: rgb(3, 3, 3);
   border: 0rem;
   padding: 0.5rem;
   padding-left: 1rem;
