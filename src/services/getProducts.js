@@ -3,9 +3,9 @@ const getProducts = async () => {
   // Use the following URL for your fetch request
   const url = `${import.meta.env.VITE_REACT_APP_API_URL}/products`;
 
-  const products = [];
+  const response = await fetch(url);
 
-  return products;
+  return await response.json();
 };
 
 export { getProducts };
